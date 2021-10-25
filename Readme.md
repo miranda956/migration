@@ -1,0 +1,1 @@
+usr/local/opt/rethinkdb/bin/rethinkdb --config-file /usr/local/etc/rethinkdb.conf
