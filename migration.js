@@ -64,7 +64,7 @@ for(let mdb in dbs) {
 	delete dbs[mdb];
 }
 
-
+ 
 
 
 for(let ukey in mdbs.users) {
@@ -619,10 +619,10 @@ r.connect({
            for(let l in larr) {
    			limg = larr[l];
       	newShops[limg["old-shop"]]["logo"] = limg.id;
-    // 			newShops[limg["old-shop"]]["logo-key"] = limg.key;
-    // 		}
+    		newShops[limg["old-shop"]]["logo-key"] = limg.key;
+    	}
     
-    // 		// Shop covers registration and linking
+    	// Shop covers registration and linking
     	await r.db("makiti-db").table("files")
     			.insert(Object.values(newSCimgs)).run(conn);
     	scget = await r.db("makiti-db").table("files")
