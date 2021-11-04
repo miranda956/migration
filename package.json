@@ -4,16 +4,23 @@
   "description": "",
   "main": "csv-json.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
     "file-system": "^2.2.2",
     "random-string-generator": "^1.0.0",
+    "read-file": "^0.2.0",
     "rethinkdb": "^2.4.2",
-    "sharp": "^0.29.2"
+    "sharp": "^0.29.2",
+    "write-to-file": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }

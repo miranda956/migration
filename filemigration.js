@@ -8,30 +8,24 @@ let fs = require("fs"),
 // load data  from json file
 
 
-mdbs =[
-{
+mdbs =[ 
+{ 
     type:"table",
     name:"images",
     data:JSON.parse(
-        fs.readFileSync(__dirname + "makiti/images.json")
+        fs.readFileSync(__dirname + "/makiti/images.json")
 
     ).RECORDS
 },
-{
-    type:"table",
-    name:"media",
-    data:JSON.parse(
-        fs.readFileSync(__dirname + "makiti/media.json")
 
-    ).RECORDS
-}
 
 ],
+user, uget, uarr, newUser, newUsers = {},
 img, iget, iarr, newImg, newImgs = {},//images
 audio, aget, aarr, newAudio, newAudios = {},// audio files
 pimg, pget, parr, newPimg, newPimgs = {},// Profile images
 cimg, cget, carr, newCimg, newCimgs = {},//cover images
-uaudio, uaget, uaarr, newUaudio, newUaudios = {},// user audio files
+uaudio, uaget, uaarr, newUaudio, newUaudios = {}// user audio files
 ;
 async function arrify(cursor) {
 	return new Promise((resolve, reject) => {
@@ -58,7 +52,7 @@ for(let mdb in mdbs) {
 	if(mdbs[mdb].type == "table") {
 		mdbs[ mdbs[mdb].name ] = mdbs[mdb].data;
 		fs.writeFileSync(
-			__dirname + "/../tables/" + mdbs[mdb].name + ".json",
+			__dirname + "/tables/" + mdbs[mdb].name + ".json",
 	JSON.stringify(mdbs[mdb].data)
 	 );
 	}
@@ -178,29 +172,18 @@ for(let ukey in mdbs.users) {
 	
 
 }
-
 r.connect({
-    host:"194.62.96.24",
-    port:1900
+    host:"localhost",
+    port:28015
 
 },async(err,conn)=>{
     if(err)console.error(err);
 else{
-     // audios 
-     await r.db("makiti-makiti").table("files")
-        .insert(Object.values(newAudios)).run(conn);
-        aget =await r.db("makiti-makiti").table("files")
-        .hasFields("old-a-post").run(conn);
-        aarr=await arrify(aget);
-        for(let a in aarr) {
-            		audio = aarr[a];
-             			newPosts[audio["old-a-post"]]["audio"] = audio.id;
-             			newPosts[audio["old-a-post"]]["audio-key"] = audio.key;
-             		}
+     
 
-                     await r.db("makiti-market").table("files")
+                  await r.db("makiti").table("files")
                      			.insert(Object.values(newImgs)).run(conn);
-                     		iget = await r.db("makiti-market").table("files")
+                     		iget = await r.db("makiti").table("files")
                      			.hasFields("old-post").run(conn)
                      		;
                      		iarr = await arrify(iget);
@@ -214,9 +197,9 @@ else{
 								});
                       		}
          		// profile pic 
-			  await r.db("makiti-market").table("files")
+			  await r.db("makiti").table("files")
 		.insert(Object.values(newPimgs)).run(conn);
-	pget = await r.db("makiti-market").table("files")
+	pget = await r.db("makiti").table("files")
 			.hasFields("old-user").run(conn)
 	;
 	parr = await arrify(pget);
@@ -226,9 +209,9 @@ else{
 			newUsers[pimg["old-user"]]["profile-key"] = pimg.key;
 	}
         
-	await r.db("makiti-market").table("files")
+	await r.db("makiti").table("files")
 			.insert(Object.values(newCimgs)).run(conn);
-		cget = await r.db("makiti-market").table("files")
+		cget = await r.db("makiti").table("files")
 				.hasFields("old-c-user").run(conn)
 		;
 		carr = await arrify(cget);
@@ -238,20 +221,10 @@ else{
 				newUsers[cimg["old-c-user"]]["cover"] = cimg.id;
 				newUsers[cimg["old-c-user"]]["cover-key"] = cimg.key;
 	 		}
-			 	// Users audios
-				await r.db("makiti-market").table("files")
-			 			.insert(Object.values(newUaudios)).run(conn);
-			 		uaget = await r.db("makiti-market").table("files")
-			 			.hasFields("old-a-user").run(conn)
-			 		;
-			 		uaarr = await arrify(uaget);
-					 
-			 		for(let a in uaarr) {
-			 			uaudio = uaarr[a];
-			 			newUsers[uaudio["old-a-user"]]["audio"] = uaudio.id;
-			 			newUsers[uaudio["old-a-user"]]["audio-key"] = uaudio.key;
-			 		}
+			 	
+				
 
 }
 } 
 )	
+
