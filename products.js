@@ -17,7 +17,7 @@ let fs =require("fs"),
    
 ],
 
-product, newProduct, newProducts = {}
+product,parr, pget,newProduct, newProducts = {}
 
 ;
 async function arrify(cursor) {
@@ -74,17 +74,34 @@ for(let pkey in mdbs.products){
 }
 
 r.connect({
-    host:"127.0.0.1",
+    host:"localhost",
     port:28015
-}, async(err,conn)=>{
+
+},async(err,conn)=>{
     if(err)console.error(err);
 else{
+     
 
-	await r.db("makiti").table("products")
-		.insert(Object.values(newProduct)).run(conn);
+                  await r.db("makiti").table("products")
+                     			.insert(Object.values(newProducts)).run(conn);
+                     		pget = await r.db("makiti").table("products")
+                     			.hasFields("old-post").run(conn)
+                     		;
+                     		parr = await arrify(pget);
+                     
+                      		for(let i in parr) {
+                      			product = parr[i];
+                      			newPosts[product["old-post"]].product.push({
+                      				pid: product.id,
+                      				pkey: product.key
+              
+								});
+                      		}
+         	 
+			 	
+				
 
-
- 		
 }
-}
-)
+} 
+)	
+
