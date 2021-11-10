@@ -1,0 +1,843 @@
+[
+    {
+      "id": "10",
+      "slug": "homme",
+      "parent_id": "1",
+      "title_meta_tag": "Homme",
+      "description": "Homme",
+      "keywords": "Homme",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee5293db4894-86265984-52975502.jpg"
+    },
+    {
+      "id": "11",
+      "slug": "femme",
+      "parent_id": "1",
+      "title_meta_tag": "Femme",
+      "description": "Femme",
+      "keywords": "Femme",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee5512ba5614-38910553-24464058.jpg"
+    },
+    {
+      "id": "12",
+      "slug": "gar�ons",
+      "parent_id": "1",
+      "title_meta_tag": "Garçons",
+      "description": "Garçons",
+      "keywords": "Garçons",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee560c825492-18373075-56053149.jpg"
+    },
+    {
+      "id": "13",
+      "slug": "filles",
+      "parent_id": "1",
+      "title_meta_tag": "Filles",
+      "description": "Filles",
+      "keywords": "Filles",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee57017acb38-93870385-61663491.jpg"
+    },
+    {
+      "id": "14",
+      "slug": "bebe",
+      "parent_id": "1",
+      "title_meta_tag": "Bebe",
+      "description": "Bebe",
+      "keywords": "Bebe",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee575330d273-09635088-43011271.jpg"
+    },
+    {
+      "id": "15",
+      "slug": "smartphones-tablettes",
+      "parent_id": "2",
+      "title_meta_tag": "Smartphones & Tablettes",
+      "description": "Smartphones & Tablettes",
+      "keywords": "Smartphones & Tablettes",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee5b7bc88127-42526065-35922278.jpg"
+    },
+    {
+      "id": "16",
+      "slug": "ordinateurs",
+      "parent_id": "2",
+      "title_meta_tag": "Ordinateurs",
+      "description": "Ordinateurs",
+      "keywords": "Ordinateurs",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee5d8e999c03-57465685-94902678.jpg"
+    },
+    {
+      "id": "17",
+      "slug": "multimedia",
+      "parent_id": "2",
+      "title_meta_tag": "Multimédia",
+      "description": "Multimédia",
+      "keywords": "Multimédia",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee6331908368-82444275-43794956.jpg"
+    },
+    {
+      "id": "18",
+      "slug": "jeux-video",
+      "parent_id": "2",
+      "title_meta_tag": "Jeux Vidéo",
+      "description": "Jeux Vidéo",
+      "keywords": "Jeux Vidéo",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee63837e5042-81443714-88928694.jpg"
+    },
+    {
+      "id": "35",
+      "slug": "informatique-internet-t�l�com",
+      "parent_id": "3",
+      "title_meta_tag": "Informatique, Internet, Télécom",
+      "description": "Informatique, Internet, Télécom",
+      "keywords": "Informatique, Internet, Télécom",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "36",
+      "slug": "entreprise-automobile",
+      "parent_id": "3",
+      "title_meta_tag": "Entreprise automobile",
+      "description": "Entreprise automobile",
+      "keywords": "Entreprise automobile",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "37",
+      "slug": "travail-administratif",
+      "parent_id": "3",
+      "title_meta_tag": "Travail administratif",
+      "description": "Travail administratif",
+      "keywords": "Travail administratif",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "38",
+      "slug": "banques-investissements",
+      "parent_id": "3",
+      "title_meta_tag": "Banques, investissements",
+      "description": "Banques, investissements",
+      "keywords": "Banques, investissements",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7b0cdc98f5-18933344-68276776.jpg"
+    },
+    {
+      "id": "39",
+      "slug": "comptabilit�-finance",
+      "parent_id": "3",
+      "title_meta_tag": "Comptabilité, finance",
+      "description": "Comptabilité, finance",
+      "keywords": "Comptabilité, finance",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "40",
+      "slug": "top-management",
+      "parent_id": "3",
+      "title_meta_tag": "Top management",
+      "description": "Top management",
+      "keywords": "Top management",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7b364ad451-57495488-17717010.jpg"
+    },
+    {
+      "id": "41",
+      "slug": "service-d�tat-ong",
+      "parent_id": "3",
+      "title_meta_tag": "Service d'État, ONG",
+      "description": "Service d'État, ONG",
+      "keywords": "Service d'État, ONG",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "42",
+      "slug": "personnel-�-domicile",
+      "parent_id": "3",
+      "title_meta_tag": "Personnel à domicile",
+      "description": "Personnel à domicile",
+      "keywords": "Personnel à domicile",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "43",
+      "slug": "logement-et-services-communaux-exploitation",
+      "parent_id": "3",
+      "title_meta_tag": "Logement et services communaux, exploitation",
+      "description": "Logement et services communaux, exploitation",
+      "keywords": "Logement et services communaux, exploitation",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "44",
+      "slug": "arts-divertissement",
+      "parent_id": "3",
+      "title_meta_tag": "Arts, divertissement",
+      "description": "Arts, divertissement",
+      "keywords": "Arts, divertissement",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "45",
+      "slug": "conseillerconsultation",
+      "parent_id": "3",
+      "title_meta_tag": "Conseiller/Consultation",
+      "description": "Conseiller/Consultation",
+      "keywords": "Conseiller/Consultation",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "46",
+      "slug": "marketing-publicit�-relations-publiques",
+      "parent_id": "3",
+      "title_meta_tag": "Marketing, publicité, relations publiques",
+      "description": "Marketing, publicité, relations publiques",
+      "keywords": "Marketing, publicité, relations publiques",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "47",
+      "slug": "m�decine-pharmacie",
+      "parent_id": "3",
+      "title_meta_tag": "Médecine, Pharmacie",
+      "description": "Médecine, Pharmacie",
+      "keywords": "Médecine, Pharmacie",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "48",
+      "slug": "�ducation-science",
+      "parent_id": "3",
+      "title_meta_tag": "Éducation, science",
+      "description": "Éducation, science",
+      "keywords": "Éducation, science",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "49",
+      "slug": "s�curit�",
+      "parent_id": "3",
+      "title_meta_tag": "Sécurité",
+      "description": "Sécurité",
+      "keywords": "Sécurité",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "50",
+      "slug": "ventes",
+      "parent_id": "3",
+      "title_meta_tag": "Ventes",
+      "description": "Ventes",
+      "keywords": "Ventes",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "51",
+      "slug": "mines-agriculture",
+      "parent_id": "3",
+      "title_meta_tag": "Mines, Agriculture",
+      "description": "Mines, Agriculture",
+      "keywords": "Mines, Agriculture",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7a3daa65d2-67425704-18168809.jpg"
+    },
+    {
+      "id": "52",
+      "slug": "assurances",
+      "parent_id": "3",
+      "title_meta_tag": "Assurances",
+      "description": "Assurances",
+      "keywords": "Assurances",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "53",
+      "slug": "la-construction",
+      "parent_id": "3",
+      "title_meta_tag": "La construction",
+      "description": "La construction",
+      "keywords": "La construction",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7ad3717126-00004017-88986802.jpg"
+    },
+    {
+      "id": "54",
+      "slug": "transport-logistique",
+      "parent_id": "3",
+      "title_meta_tag": "Transport, Logistique",
+      "description": "Transport, Logistique",
+      "keywords": "Transport, Logistique",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "55",
+      "slug": "tourisme-restaurants",
+      "parent_id": "3",
+      "title_meta_tag": "Tourisme, restaurants",
+      "description": "Tourisme, restaurants",
+      "keywords": "Tourisme, restaurants",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "56",
+      "slug": "gestion-des-ressources-humaines",
+      "parent_id": "3",
+      "title_meta_tag": "Gestion des Ressources Humaines",
+      "description": "Gestion des Ressources Humaines",
+      "keywords": "Gestion des Ressources Humaines",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "57",
+      "slug": "salons-de-beaut�",
+      "parent_id": "3",
+      "title_meta_tag": "Salons de beauté",
+      "description": "Salons de beauté",
+      "keywords": "Salons de beauté",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "58",
+      "slug": "droit",
+      "parent_id": "3",
+      "title_meta_tag": "Droit",
+      "description": "Droit",
+      "keywords": "Droit",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "30",
+      "slug": "terrain-a-vendre",
+      "parent_id": "4",
+      "title_meta_tag": "Terrain à vendre",
+      "description": "Terrain à vendre",
+      "keywords": "Terrain à vendre",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee6c8a555712-57501378-23283935.jpg"
+    },
+    {
+      "id": "31",
+      "slug": "maison-a-vendre",
+      "parent_id": "4",
+      "title_meta_tag": "Maison à vendre",
+      "description": "Maison à vendre",
+      "keywords": "Maison à vendre",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee6cde4af435-23283297-63229421.jpg"
+    },
+    {
+      "id": "32",
+      "slug": "locations",
+      "parent_id": "4",
+      "title_meta_tag": "Locations",
+      "description": "Locations",
+      "keywords": "Locations",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee6bbd54be67-42227142-87162738.jpg"
+    },
+    {
+      "id": "33",
+      "slug": "colocations",
+      "parent_id": "4",
+      "title_meta_tag": "Colocations",
+      "description": "Colocations",
+      "keywords": "Colocations",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "34",
+      "slug": "bureaux-commerces",
+      "parent_id": "4",
+      "title_meta_tag": "Bureaux & Commerces",
+      "description": "Bureaux & Commerces",
+      "keywords": "Bureaux & Commerces",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee6b4d7dbde4-53284568-98644273.jpg"
+    },
+    {
+      "id": "23",
+      "slug": "appareils-electromenagers",
+      "parent_id": "5",
+      "title_meta_tag": "Appareils électroménagers",
+      "description": "Appareils électroménagers",
+      "keywords": "Appareils électroménagers",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee73111816a4-05003670-83410590.jpg"
+    },
+    {
+      "id": "24",
+      "slug": "mobilier-et-interieur",
+      "parent_id": "5",
+      "title_meta_tag": "Mobilier et intérieur",
+      "description": "Mobilier et intérieur",
+      "keywords": "Mobilier et intérieur",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee705ec94553-18595674-89274888.jpg"
+    },
+    {
+      "id": "25",
+      "slug": "vaisselle-et-articles-de-cuisine",
+      "parent_id": "5",
+      "title_meta_tag": "Vaisselle et articles de cuisine",
+      "description": "Vaisselle et articles de cuisine",
+      "keywords": "Vaisselle et articles de cuisine",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee715e7c07f8-56794749-66356813.jpg"
+    },
+    {
+      "id": "27",
+      "slug": "reparation-et-construction",
+      "parent_id": "5",
+      "title_meta_tag": "Réparation et construction",
+      "description": "Réparation et construction",
+      "keywords": "Réparation et construction",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee73f19d24c6-51786247-48651543.jpg"
+    },
+    {
+      "id": "28",
+      "slug": "hygiene-et-sante",
+      "parent_id": "5",
+      "title_meta_tag": "Hygiène et Santé",
+      "description": "Hygiène et Santé",
+      "keywords": "Hygiène et Santé",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee72e6b90867-85280902-40845961.jpg"
+    },
+    {
+      "id": "59",
+      "slug": "informatique-internet-telecom",
+      "parent_id": "6",
+      "title_meta_tag": "Informatique, Internet, Télécom",
+      "description": "Informatique, Internet, Télécom",
+      "keywords": "Informatique, Internet, Télécom",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee800dcf1c16-79318471-89056133.jpg"
+    },
+    {
+      "id": "60",
+      "slug": "services-domestiques",
+      "parent_id": "6",
+      "title_meta_tag": "Services domestiques",
+      "description": "Services domestiques",
+      "keywords": "Services domestiques",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "61",
+      "slug": "services-aux-entreprises",
+      "parent_id": "6",
+      "title_meta_tag": "Services aux entreprises",
+      "description": "Services aux entreprises",
+      "keywords": "Services aux entreprises",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee809ed74fa6-30857950-12703538.jpg"
+    },
+    {
+      "id": "62",
+      "slug": "art",
+      "parent_id": "6",
+      "title_meta_tag": "Art",
+      "description": "Art",
+      "keywords": "Art",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "63",
+      "slug": "service-de-courrier",
+      "parent_id": "6",
+      "title_meta_tag": "Service de courrier",
+      "description": "Service de courrier",
+      "keywords": "Service de courrier",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "64",
+      "slug": "beaute-sante",
+      "parent_id": "6",
+      "title_meta_tag": "Beauté, santé",
+      "description": "Beauté, santé",
+      "keywords": "Beauté, santé",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee80cc8ca0a3-37794673-41237156.jpg"
+    },
+    {
+      "id": "65",
+      "slug": "nounous",
+      "parent_id": "6",
+      "title_meta_tag": "Nounous",
+      "description": "Nounous",
+      "keywords": "Nounous",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "66",
+      "slug": "�quipement-production",
+      "parent_id": "6",
+      "title_meta_tag": "Équipement, production",
+      "description": "Équipement, production",
+      "keywords": "Équipement, production",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "67",
+      "slug": "enseignement-education",
+      "parent_id": "6",
+      "title_meta_tag": "Enseignement / Education",
+      "description": "Enseignement / Education",
+      "keywords": "Enseignement / Education",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "68",
+      "slug": "la-s�curit�",
+      "parent_id": "6",
+      "title_meta_tag": "La sécurité",
+      "description": "La sécurité",
+      "keywords": "La sécurité",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "69",
+      "slug": "alimentation-restauration",
+      "parent_id": "6",
+      "title_meta_tag": "Alimentation, restauration",
+      "description": "Alimentation, restauration",
+      "keywords": "Alimentation, restauration",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "70",
+      "slug": "vacances-�v�nements",
+      "parent_id": "6",
+      "title_meta_tag": "Vacances, événements",
+      "description": "Vacances, événements",
+      "keywords": "Vacances, événements",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "71",
+      "slug": "publicit�-impression",
+      "parent_id": "6",
+      "title_meta_tag": "Publicité, impression",
+      "description": "Publicité, impression",
+      "keywords": "Publicité, impression",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "72",
+      "slug": "r�paration-et-entretien-d�quipement",
+      "parent_id": "6",
+      "title_meta_tag": "Réparation et entretien d'équipement",
+      "description": "Réparation et entretien d'équipement",
+      "keywords": "Réparation et entretien d'équipement",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "73",
+      "slug": "r�paration-construction-de-b�timent",
+      "parent_id": "6",
+      "title_meta_tag": "Réparation, construction de bâtiment",
+      "description": "Réparation, construction de bâtiment",
+      "keywords": "Réparation, construction de bâtiment",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "74",
+      "slug": "jardin-am�nagement-paysager",
+      "parent_id": "6",
+      "title_meta_tag": "Jardin, aménagement paysager",
+      "description": "Jardin, aménagement paysager",
+      "keywords": "Jardin, aménagement paysager",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "75",
+      "slug": "transport",
+      "parent_id": "6",
+      "title_meta_tag": "Transport",
+      "description": "Transport",
+      "keywords": "Transport",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "76",
+      "slug": "nettoyage",
+      "parent_id": "6",
+      "title_meta_tag": "Nettoyage",
+      "description": "Nettoyage",
+      "keywords": "Nettoyage",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "77",
+      "slug": "installation-d�quipement",
+      "parent_id": "6",
+      "title_meta_tag": "Installation d'équipement",
+      "description": "Installation d'équipement",
+      "keywords": "Installation d'équipement",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "78",
+      "slug": "photo-et-vid�o",
+      "parent_id": "6",
+      "title_meta_tag": "Photo et vidéo",
+      "description": "Photo et vidéo",
+      "keywords": "Photo et vidéo",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "19",
+      "slug": "voitures",
+      "parent_id": "7",
+      "title_meta_tag": "Voitures",
+      "description": "Voitures",
+      "keywords": "Voitures",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee75fa231776-60036175-88077730.jpg"
+    },
+    {
+      "id": "20",
+      "slug": "motos",
+      "parent_id": "7",
+      "title_meta_tag": "Motos",
+      "description": "Motos",
+      "keywords": "Motos",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee778e31b894-01643094-92276312.jpg"
+    },
+    {
+      "id": "21",
+      "slug": "camions-et-poids-lourds",
+      "parent_id": "7",
+      "title_meta_tag": "Camions et poids lourds",
+      "description": "Camions et poids lourds",
+      "keywords": "Camions et poids lourds",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee77ce8244f2-34530399-75311756.jpg"
+    },
+    {
+      "id": "22",
+      "slug": "pieces-detachees-et-accessoires",
+      "parent_id": "7",
+      "title_meta_tag": "Pieces détachées et Accessoires",
+      "description": "Pieces détachées et Accessoires",
+      "keywords": "Pieces détachées et Accessoires",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7726e1b572-37939309-66931588.jpg"
+    },
+    {
+      "id": "79",
+      "slug": "boisson-alcolisees",
+      "parent_id": "8",
+      "title_meta_tag": "Boisson Alcolisees",
+      "description": "Boisson Alcolisees",
+      "keywords": "Boisson Alcolisees",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "80",
+      "slug": "jus-et-boisson-non-alcolisees",
+      "parent_id": "8",
+      "title_meta_tag": "Jus et boisson non-alcolisees",
+      "description": "Jus et boisson non-alcolisees",
+      "keywords": "Jus et boisson non-alcolisees",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee67b5d6c3f1-84885674-49818446.jpg"
+    },
+    {
+      "id": "81",
+      "slug": "fruits",
+      "parent_id": "8",
+      "title_meta_tag": "Fruits",
+      "description": "Fruits",
+      "keywords": "Fruits",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee65b47359c3-83646126-48816388.jpg"
+    },
+    {
+      "id": "82",
+      "slug": "produits-laitiers",
+      "parent_id": "8",
+      "title_meta_tag": "Produits Laitiers",
+      "description": "Produits Laitiers",
+      "keywords": "Produits Laitiers",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "83",
+      "slug": "epiceries",
+      "parent_id": "8",
+      "title_meta_tag": "Epiceries",
+      "description": "Epiceries",
+      "keywords": "Epiceries",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "84",
+      "slug": "legumes",
+      "parent_id": "8",
+      "title_meta_tag": "Legumes",
+      "description": "Legumes",
+      "keywords": "Legumes",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "85",
+      "slug": "graines-et-cereales",
+      "parent_id": "8",
+      "title_meta_tag": "Graines et Cereales",
+      "description": "Graines et Cereales",
+      "keywords": "Graines et Cereales",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee669aa63769-21451790-47288808.jpg"
+    },
+    {
+      "id": "86",
+      "slug": "aliments-frais",
+      "parent_id": "8",
+      "title_meta_tag": "Aliments Frais",
+      "description": "Aliments Frais",
+      "keywords": "Aliments Frais",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "87",
+      "slug": "repas",
+      "parent_id": "8",
+      "title_meta_tag": "Repas",
+      "description": "Repas",
+      "keywords": "Repas",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee68f34a5e32-08018101-33761846.jpg"
+    },
+    {
+      "id": "88",
+      "slug": "patisserie",
+      "parent_id": "8",
+      "title_meta_tag": "Patisserie",
+      "description": "Patisserie",
+      "keywords": "Patisserie",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "89",
+      "slug": "produits-de-mer",
+      "parent_id": "8",
+      "title_meta_tag": "Produits de mer",
+      "description": "Produits de mer",
+      "keywords": "Produits de mer",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee65d8f2d702-74432566-37424001.jpg"
+    },
+    {
+      "id": "90",
+      "slug": "volaille-et-betails",
+      "parent_id": "8",
+      "title_meta_tag": "Volaille et Betails",
+      "description": "Volaille et Betails",
+      "keywords": "Volaille et Betails",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "29",
+      "slug": "equipements-sportif",
+      "parent_id": "9",
+      "title_meta_tag": "Equipements Sportif",
+      "description": "Equipements Sportif",
+      "keywords": "Equipements Sportif",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7ef5bfcff2-64931035-35225377.jpg"
+    },
+    {
+      "id": "91",
+      "slug": "machines-agricoles-91",
+      "parent_id": "9",
+      "title_meta_tag": "Machines Agricoles",
+      "description": "Machines Agricoles",
+      "keywords": "Machines Agricoles",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7c14d09384-38530284-53492531.jpg"
+    },
+    {
+      "id": "92",
+      "slug": "machines-industrielles",
+      "parent_id": "9",
+      "title_meta_tag": "Machines Industrielles",
+      "description": "Machines Industrielles",
+      "keywords": "Machines Industrielles",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7c59918281-62362496-83006049.jpg"
+    },
+    {
+      "id": "93",
+      "slug": "equipements-de-sant�",
+      "parent_id": "9",
+      "title_meta_tag": "Equipements de Sant�",
+      "description": "Equipements de Sant�",
+      "keywords": "Equipements de Sant�",
+      "category_order": "1",
+      "image": null
+    },
+    {
+      "id": "94",
+      "slug": "papeterie",
+      "parent_id": "9",
+      "title_meta_tag": "Papeterie",
+      "description": "Papeterie",
+      "keywords": "Papeterie",
+      "category_order": "1",
+      "image": "uploads/category/category_5fee7fbc111ad5-67622972-97455374.jpg"
+    }
+    
+    ]

@@ -1,0 +1,32 @@
+[
+    {
+      "user_id": 5,
+      "login": 3,
+      "password": "e4f97f079e593f585e633ed9860a8d37680ad0af258f0a82b654a70166a7e5bb",
+      "name": "Cece Emile",
+      "surname": "Lamah",
+      "role": "moderator",
+      
+      "avatar": null
+    },
+    {
+      "user_id": 1,
+      "login": 1,
+      "password": "f26fe1a9d93eb1c7d267b32548e19c74311eb3b1ccc0db566e0ded1492f3b8c2",
+      "name": "Ernest Cece ",
+      "surname": "Peguita",
+      "role": "admin",
+     
+      "avatar": null
+    },
+    {
+      "user_id": 3,
+      "login": 2,
+      "password": "6edbb377466a9ce3e4a135031088872d900afd68a644843ec5c96ce9ffc85123",
+      "name": "Fassou Gabriel",
+      "surname": "Bombily",
+      "role": "admin",
+     
+      "avatar": null
+    }
+    ]
